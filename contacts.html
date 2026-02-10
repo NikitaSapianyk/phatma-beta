@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="./css/style_en.css">
+    <link rel="stylesheet" href="./css/index.css">
 
 </head>
 
@@ -27,7 +27,7 @@
                 <a href="./what_can_we_do.html">WHAT WE DO
                 </a>
                 <a href="./contacts.html">Contacts</a>
-                
+
                 <div class="lang-switcher" onclick="toggleLang()">
                     <div class="lang-btn">EN ▾</div>
 
@@ -51,9 +51,16 @@
     </nav>
 
     <section class="hero">
+        <!-- VIDEO BACKGROUND -->
+        <video class="video-bg" autoplay muted loop playsinline>
+            <source src="./src/0209(3).mp4" type="video/mp4">
+        </video>
+
+        <!-- OVERLAY (затемнение) -->
+        <div class="overlay"></div>
         <div>
-            <div class="grid">
-                <div class="card">
+            <div class="grid" style="display: flex;">
+                <div class="card" style="background: #111827b3;">
                     <p style="margin-bottom: 10px;">+359 87 940 7794 (+ WhatsApp)</p>
                     <p style="margin-bottom: 10px;">info@ed-pharma.eu</p>
                 </div>
