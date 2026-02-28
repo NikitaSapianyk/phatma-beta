@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pharma Consulting</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/card.css">
+
+</head>
+
+<body>
+
+    <nav class="nav">
+        <div class="nav-inner">
+            <div class="logo"><img src="./src/logo_white.png" style="height: 80px;"></div>
+
+            <div class="menu" id="menu">
+                <a href="./index.html">Home</a>
+                <a href="./about_us.html">About us</a>
+                <a href="./our_experts_team.html">Our Experts Team
+                </a>
+                <a href="./what_can_we_do.html">WHAT WE DO
+                </a>
+                <a href="./contacts.html">Contacts</a>
+
+                <div class="lang-switcher" onclick="toggleLang()">
+                    <div class="lang-btn">EN ▾</div>
+
+                    <div class="lang-dropdown">
+                        <a href="#">English</a>
+                        <a href="#">Українська</a>
+                        <a href="#">Български</a>
+                        <a href="#">Română</a>
+                        <a href="#">Eesti</a>
+                        <a href="#">Polski</a>
+                        <a href="#">Slovenščina</a>
+                        <a href="#">Македонски</a>
+                        <a href="#">Deutsch</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="burger" onclick="toggleMenu()">☰</div>
+        </div>
+    </nav>
+
+    <section class="hero">
+
+        <!-- VIDEO BACKGROUND -->
+        <video class="video-bg" autoplay muted loop playsinline>
+            <source src="./src/0227.mp4" type="video/mp4">
+        </video>
+
+        <!-- OVERLAY (затемнение) -->
+        <div class="overlay"></div>
+
+        <!-- CONTENT -->
+        <div class="hero-content" >
+            <div class="card" >
+                <img src="./src/Oleksandr Sapianyk - Co-founder, CEO.jpg" 
+                    style="border-radius: 15px; width: 280px; height: 360px; margin-right: 17px;">
+                <div class="text">
+                    <h2 style="text-align: left; padding-bottom: 20px;">Oleksandr Sapianyk</h2>
+                    <p style="text-align: left;">CEO/COO building and turning around EU GMP pharma and chemical plants
+                        in European markets with high
+                        regulatory pressure, price controls and expensive energy, where manufacturing margins are
+                        heavily
+                        constrained.
+                        For 18+ years have been working across CEE and Europe as a CEO/COO, Qualified Person (QP) and
+                        former
+                        Production Director – usually stepping in when a plant is under regulatory pressure, margins are
+                        squeezed and owners are not sure whether to close, sell </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <footer>
+        © 2026 Pharma Consulting. All rights reserved. All video designed by Freepik - www.freepik.com 
+    </footer>
+
+    <script src="./js/script.js">
+
+    </script>
+
+</body>
+
+</html>
